@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #E0E8FF;
+    color: #1F2E55;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+
+
+.wrapper {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 495px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    columns: 1;
+    background: white;
+    border-radius: 20px;
+}
+
+.order-content {
+    text-align: center;
+    font-style: bold;  
+}
+
+.listen-p {
+    padding: 0 3rem;
+    color: #717FA6;
+}
+
+.subscription {
+    background-color: #F7F9FF;
+    margin: 0 3em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.plan {
+    text-align: left;
+}
+
+.plan p {
+    color: #717FA6;
+}
+
+.change {
+    margin-left: auto;
+    padding-right: 2rem;
+    color: #382AE1;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.music {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.proceed {
+    border-radius: 11px;
+    margin: 2rem auto;
+    padding: 20px 7rem;
+    background-color: #382AE1;
+    border: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.cancel {
+    padding-bottom: 2rem;
+    text-decoration: none;
+    color: #717FA6;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
